@@ -577,3 +577,43 @@ h1 {
   pointer-events: none;
   transform: scale(0.1);
 }
+.newsle-secion {
+  margin-left: 70px;
+}
+
+.input {
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2f303a;
+}
+.inpute {
+  background: #2f303a;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-top: 30px;
+  padding: 10px 80px;
+  color: var(--text-white);
+}
+.newsl {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--text-white);
+  padding: 10px 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsle-secion label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-white);
+  position: absolute;
+}
