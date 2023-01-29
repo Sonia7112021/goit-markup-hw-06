@@ -524,22 +524,53 @@
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
           <button type="button" class="close-btn" data-modal-close>x</button>
-          <form>
-            <p>Zostaw swoje dane w formularzu poniżej</p>
 
-            <label> imie <inupt type="name" name="name" /></label>
-            <label> telefon <inupt type="tel" name="telefon" /></label>
+          <form class="froom">
+            <h6>Zostaw swoje dane w formularzu poniżej</h6>
+
+            <label>
+              imie
+              <svg width="20" height="20">
+                <use href="./images/symbol-defs(2).svg#icon-Vector"></use>
+              </svg>
+              <input type="name" name="name"
+            /></label>
+            <label>
+              telefon
+              <svg width="20" height="20">
+                <use href="./images/symbol-defs(2).svg#icon-Vector-1"></use>
+              </svg>
+              <input type="tel" name="telefon" />
+            </label>
 
             <label>
               Email
+              <svg width="20" height="20">
+                <use href="./images/symbol-defs(2).svg#icon-Vector-2"></use>
+              </svg>
               <input type="email" name="email" />
             </label>
 
-            <label> Komentarz <inupt type="text" name="Komentarz" /></label>
+            <label>
+              Komentarz
 
-            <p>Oświadczam iż akceptuję Regulamin i Politykę Prywatności.</p>
+              <textarea
+                name="Komentarz"
+                rows="6"
+                placeholder="Wprowadź tekst"
+              ></textarea>
+            </label>
+            <p>
+              <input
+                type="checkbox"
+                name="Regulamin"
+                value="Regulamin"
+                checked
+              />
+              Oświadczam iż akceptuję Regulamin i Politykę Prywatności.
+            </p>
 
-            <button type="wyslij">Wyślij</button>
+            <button class="froom-botom" type="wyslij">Wyślij</button>
           </form>
         </div>
       </div>
