@@ -620,23 +620,38 @@ h1 {
 
 .froom label {
   box-sizing: border-box;
-
   border-radius: 4px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 8px;
+}
+
+.her:hover {
+  fill: var(--text-blue);
+  border: 1px solid #2196f3;
 }
 
 .froom input {
   background: #ffffff;
   font-family: inherit;
-  line-height: 1.5;
+  line-height: 1.15;
   box-sizing: border-box;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  padding: 10px 80px;
+  padding: 10px 20px 10px 40px;
+  margin: 0px;
 }
 
+.kom {
+  padding: 12px 16px;
+  margin: 0;
+  max-width: 100%;
+  max-height: 120px;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  min-height: 100%;
+  min-width: 120px;
+}
 .froom h6 {
   padding: 10px 20px;
   margin-bottom: 10px;
@@ -673,6 +688,7 @@ h1 {
   margin: 0 auto;
   color: var(--text-white);
   padding: 10px 70px;
+  border: none;
 }
 .froom {
   margin-left: 30px;
@@ -680,7 +696,7 @@ h1 {
 }
 .froom svg {
   position: absolute;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-left: 20px;
   margin-right: 40px;
   left: 20px;
