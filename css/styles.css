@@ -606,6 +606,7 @@ h1 {
   padding: 10px 40px;
   justify-content: center;
   align-items: center;
+  border: none;
 }
 
 .newsle-secion label {
@@ -707,4 +708,7 @@ h1 {
 }
 .reg {
   color: var(--text-blue);
+}
+.her-chec:hover {
+  background-color: #2196f3;
 }
