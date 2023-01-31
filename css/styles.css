@@ -601,12 +601,16 @@ h1 {
 .newsl {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  border-radius: 1px;
   color: var(--text-white);
   padding: 10px 40px;
   justify-content: center;
   align-items: center;
   border: none;
+  margin: 0px;
+}
+.newsl svg {
+  margin-left: 15px;
 }
 
 .newsle-secion label {
@@ -639,7 +643,8 @@ h1 {
   fill: #2196f3;
   position: relative;
 }
-.from-input:focus-visible {
+.from-input:focus,
+.from-input:focus ~ svg {
   outline: 1px solid #2196f3;
   fill: var(--text-blue);
 }
@@ -672,10 +677,7 @@ h1 {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* identical to box height, or 171% */
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 
@@ -705,7 +707,6 @@ h1 {
   margin-left: 20px;
   margin-right: 40px;
   left: 20px;
-  outline: none;
 }
 .reg:hover {
   color: var(--text-blue);
@@ -714,7 +715,4 @@ h1 {
 }
 .reg {
   color: var(--text-blue);
-}
-.checkbox {
-  fill: #2196f3;
 }

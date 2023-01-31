@@ -511,8 +511,13 @@
         <div class="newsle-secion">
           <form>
             <label> Zapisz się do newslettera</label>
-            <input type="text" class="inpute" />
-            <button type="button" class="newsl">
+            <input
+              type="email"
+              name="E-mail"
+              class="inpute"
+              placeholder="E-mail"
+            />
+            <button type="zapisz sie" class="newsl">
               Zapisz się
               <svg width="20" height="20">
                 <use href="./images/symbol-defs(2).svg#icon-icon-send"></use>
@@ -570,14 +575,13 @@
                 name="Komentarz"
                 placeholder="Wprowadź tekst"
                 max-width="5"
-                rows="5"
               ></textarea>
             </label>
             <p>
               <input
                 class="from-input"
                 type="checkbox"
-                name="Regulamin"
+                name="yes"
                 value="Regulamin"
                 checked
               />
