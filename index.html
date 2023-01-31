@@ -525,61 +525,67 @@
         <div class="modal">
           <button type="button" class="close-btn" data-modal-close>x</button>
 
-          <form class="froom">
+          <form class="from">
             <h6>Zostaw swoje dane w formularzu poniżej</h6>
 
             <label>
               Imie
-              <div class="her">
-                <svg width="15" height="15">
-                  <use href="./images/symbol-defs(2).svg#icon-Vector"></use>
-                </svg>
-                <input type="name" name="name" /></div
-            ></label>
+
+              <input class="from-input" type="name" name="name" /><svg
+                width="15"
+                height="15"
+                style="outline: none"
+              >
+                <use href="./images/symbol-defs(2).svg#icon-Vector"></use>
+              </svg>
+            </label>
             <label>
               Telefon
-              <div class="her">
-                <svg width="15" height="15">
-                  <use href="./images/symbol-defs(2).svg#icon-Vector-1"></use>
-                </svg>
-                <input type="tel" name="telefon" />
-              </div>
+
+              <input class="from-input" type="tel" name="telefon" /><svg
+                width="15"
+                height="15"
+                style="outline: none"
+              >
+                <use href="./images/symbol-defs(2).svg#icon-Vector-1"></use>
+              </svg>
             </label>
 
             <label>
               Email
-              <div class="her">
-                <svg width="15" height="15">
-                  <use href="./images/symbol-defs(2).svg#icon-Vector-2"></use>
-                </svg>
-                <input type="email" name="email" />
-              </div>
+
+              <input class="from-input" type="email" name="email" /><svg
+                width="15"
+                height="15"
+              >
+                <use href="./images/symbol-defs(2).svg#icon-Vector-2"></use>
+              </svg>
             </label>
 
             <label>
               Komentarz
-              <div class="her">
-                <textarea
-                  class="kom"
-                  name="Komentarz"
-                  placeholder="Wprowadź tekst"
-                  max-width="5"
-                ></textarea>
-              </div>
+
+              <textarea
+                class="kom from-input"
+                name="Komentarz"
+                placeholder="Wprowadź tekst"
+                max-width="5"
+                rows="5"
+              ></textarea>
             </label>
             <p>
               <input
-                class="her-chec"
+                class="from-input"
                 type="checkbox"
                 name="Regulamin"
                 value="Regulamin"
                 checked
               />
               Oświadczam iż akceptuję <span class="reg"> Regulamin</span> i
-              <span class="reg"> Politykę Prywatności.></span>
+              <span class="reg"> Politykę Prywatności.</span>
             </p>
 
-            <button class="froom-botom" type="wyslij">Wyślij</button>
+            <button class="from-botom" type="wyslij">Wyślij</button>
           </form>
         </div>
       </div>
