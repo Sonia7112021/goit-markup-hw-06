@@ -753,3 +753,18 @@ input:checked {
 .check:checked {
   background-color: #2196f3;
 }
+.chebox svg {
+  fill: var(--text-white);
+  background: var(--text-blue);
+
+  transform: translateY(100%);
+
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: -5px;
+  margin-bottom: 30px;
+}
+.chebox svg:checked {
+  background: var(--text-blue);
+}
