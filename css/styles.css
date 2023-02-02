@@ -619,6 +619,7 @@ h1 {
 
 .newsl svg {
   margin-left: 15px;
+  column-gap: 10px;
 }
 
 .newsle-secion label {
