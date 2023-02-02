@@ -755,15 +755,18 @@ input:checked {
 }
 .chebox svg {
   fill: var(--text-white);
-  background: var(--text-blue);
-
+  background: var(--text-white);
   transform: translateY(100%);
-
   position: absolute;
-  margin-top: 0px;
-  margin-left: 10px;
-  margin-right: -5px;
-  margin-bottom: 30px;
+  appearance: none;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.75em;
+  height: 1.75em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
 }
 .chebox svg:checked {
   background: var(--text-blue);
