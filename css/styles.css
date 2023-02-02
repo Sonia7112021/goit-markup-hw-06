@@ -756,7 +756,6 @@ input:checked {
 .chebox svg {
   fill: var(--text-white);
   background: var(--text-white);
-  transform: translateY(100%);
   position: absolute;
   appearance: none;
   margin: 0;
