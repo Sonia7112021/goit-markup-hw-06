@@ -16,7 +16,7 @@
 body {
   color: var(--text-main-color);
   line-height: 1.5;
-  font-family: "Roboto", "sans-serif";
+  font-family: "Roboto", "Raleway", "sans-serif";
   background-color: #f9f9fd;
 }
 
