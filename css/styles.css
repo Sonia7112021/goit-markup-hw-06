@@ -14,9 +14,12 @@
   padding: 0;
 }
 body {
-  font-family: "Roboto", sans-serif;
   color: var(--text-main-color);
+  line-height: 1.5;
+  font-family: sans-serif;
+  background-color: #f9f9fd;
 }
+
 .header-secondary {
   color: var(--text-grey);
   text-decoration: none;
@@ -67,7 +70,6 @@ body {
   text-decoration: none;
   color: inherit;
   margin-right: 94px;
-  font-family: "Raleway";
 }
 .logo {
   font-weight: 500;
@@ -464,12 +466,6 @@ zmian kolro svg
 */
 * {
   box-sizing: border-box;
-}
-
-body {
-  line-height: 1.5;
-  font-family: sans-serif;
-  background-color: #f9f9fd;
 }
 
 h1 {
