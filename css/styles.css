@@ -424,7 +424,7 @@ body {
   background: var(--text-blue);
 }
 .footer-socials {
-  margin-left: 70px;
+  gap: 40px;
 }
 .footer-socials h3 {
   font-weight: 700;
@@ -573,11 +573,7 @@ h1 {
   pointer-events: none;
   transform: scale(0.1);
 }
-.newsle-secion {
-  gap: 60px;
-}
-
-.input {
+.newsle-secion .input {
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -605,7 +601,7 @@ h1 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--text-white);
-  width: 200px;
+  width: 350px;
   height: 50px;
   justify-content: center;
   align-items: center;
