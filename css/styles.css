@@ -310,6 +310,7 @@ body {
   padding: 0 15px;
   display: flex;
   gap: 40px;
+  align-items: baseline;
 }
 .footer-logo {
   margin-bottom: 20px;
@@ -665,14 +666,12 @@ input:checked {
   border: none;
   outline: 2px solid var(--text-blue);
   fill: var(--text-blue);
-  border: none;
 }
 .kom {
   width: 100%;
   max-width: 120px;
-  min-width: 120px;
-  min-height: 100%;
-  min-width: 100%;
+  min-width: 487px;
+  min-height: 120px;
   max-height: 120px;
   font-family: inherit;
   font-size: 100%;
@@ -717,8 +716,8 @@ input:checked {
   margin-top: 30px;
 }
 .from {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .from svg {
   position: absolute;
