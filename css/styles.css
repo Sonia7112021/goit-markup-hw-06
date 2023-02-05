@@ -367,10 +367,9 @@ body {
 }
 .firmy {
   background: var(--text-white);
-
   margin: 0 auto;
 }
-.firmy li:hover {
+.firmy ul li a:hover {
   color: var(--text-blue);
   fill: var(--text-blue);
   border-color: var(--text-blue);
@@ -591,7 +590,7 @@ h1 {
   align-items: center;
   padding: 10px 40px;
   display: flex;
-  margin-right: 10px;
+  margin-right: 11px;
   margin-top: 20px;
   width: 100%;
 }
