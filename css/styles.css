@@ -106,6 +106,7 @@ body {
 }
 .hover:hover {
   color: var(--text-blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hover-portfoli:hover {
@@ -114,6 +115,7 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .title-secondary-section {
@@ -125,6 +127,7 @@ body {
   font-style: normal;
   list-style: none;
 }
+
 .flex-nav-container {
   display: flex;
   align-items: center;
@@ -147,6 +150,7 @@ body {
 }
 .nav-links a:hover svg {
   fill: var(--text-blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-links a svg {
@@ -331,6 +335,11 @@ body {
   text-decoration: none;
 }
 
+.contact-link:hover {
+  color: var(--text-blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .mitte img {
   vertical-align: bottom;
 }
@@ -346,6 +355,7 @@ body {
 .mitte li:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hit {
   border-left: var(--text-grey);
@@ -369,11 +379,7 @@ body {
   background: var(--text-white);
   margin: 0 auto;
 }
-.firmy ul li a:hover {
-  color: var(--text-blue);
-  fill: var(--text-blue);
-  border-color: var(--text-blue);
-}
+
 .firmy ul {
   display: flex;
   justify-content: space-between;
@@ -387,7 +393,14 @@ body {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   list-style: none;
-  padding: auto;
+}
+.firmy ul li:hover {
+  border-color: var(--text-blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.firmy ul li a:hover {
+  fill: var(--text-blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .five-section {
   background-color: var(--text-white);
@@ -406,6 +419,7 @@ body {
 .symbolo li:hover svg {
   color: var(--text-blue);
   fill: var(--text-white);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .symbolo ul a {
   display: flex;
@@ -421,6 +435,7 @@ body {
 }
 .symbolo ul li:hover a {
   background: var(--text-blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-socials {
   gap: 40px;
@@ -455,6 +470,7 @@ body {
 }
 .footer-socials ul a:hover {
   background: var(--text-blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* 
 zmian kolro svg
@@ -479,6 +495,7 @@ h1 {
 
 .box:hover .overlay {
   transform: translateY(0);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay {
@@ -659,6 +676,7 @@ h1 {
 .from-input:focus ~ svg {
   outline: 1px solid #2196f3;
   fill: var(--text-blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* z neta na fajke */
 input:checked {
@@ -729,6 +747,7 @@ input:checked {
   color: var(--text-blue);
   text-decoration: underline;
   border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .reg {
   color: var(--text-blue);
