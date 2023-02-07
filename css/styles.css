@@ -721,15 +721,12 @@ input:checked {
   padding: 10px;
 }
 .from h6 {
-  padding: 10px 20px;
-  margin-bottom: 10px;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-  margin-top: 20px;
+  color: var(--text-main-color);
 }
 .from p {
   font-weight: 400;
@@ -738,6 +735,7 @@ input:checked {
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 20px;
+  text-align: center;
 }
 
 .from-botom {
@@ -779,27 +777,41 @@ input:checked {
 }
 
 .check {
-  flex-wrap: nowrap;
-}
-.check:checked {
-  background-color: #2196f3;
-}
-.chebox svg {
-  fill: var(--text-white);
-  background: var(--text-white);
+  cursor: pointer;
+  display: flex;
   position: absolute;
-  appearance: none;
-  margin: 0;
-  font: inherit;
-  color: currentColor;
-  width: 1.1em;
-  height: 1.1em;
-  border: 0.15em solid currentColor;
-  border-radius: 0.15em;
-  transform: translateY(-0.075em);
+  height: 10;
+  width: 10;
+  color: #2196f3;
+  align-items: flex-start;
+  font-size: 0.75rem;
+  line-height: 1.0625rem;
+  opacity: 0;
 }
-.chebox svg:checked {
-  background: var(--text-blue);
+.check {
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
 }
 
-/*  input: checked + svg;*/
+.check svg {
+  height: 12px;
+  flex-shrink: 0;
+  flex-basis: 24px;
+  border: 1px solid var(--text-blue);
+  cursor: pointer;
+  margin-right: 8px;
+  border-radius: 4px;
+  background-color: #2196f3;
+}
+
+.check input:checked + svg {
+  background-image: url("../../goit-markup-hw-06/images/symbol-defs\(3\).svg");
+  background-repeat: no-repeat;
+  background-size: 11px 11px;
+  background-position: center;
+  background-color: #2196f3;
+}
