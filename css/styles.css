@@ -603,8 +603,7 @@ h1 {
   margin-top: 10px;
   margin-right: 10px;
 }
-.close-btn svg {
-}
+
 .close-btn:hover {
   fill: var(--text-blue);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -793,8 +792,8 @@ input:checked {
   margin: 0;
   font: inherit;
   color: currentColor;
-  width: 1.75em;
-  height: 1.75em;
+  width: 1.1em;
+  height: 1.1em;
   border: 0.15em solid currentColor;
   border-radius: 0.15em;
   transform: translateY(-0.075em);
