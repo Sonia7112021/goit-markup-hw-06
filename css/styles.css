@@ -324,6 +324,7 @@ body {
   background: var(--first-section-bg);
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 .footer-container {
   padding: 0 15px;
@@ -587,9 +588,6 @@ h1 {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
   background-color: var(--text-white);
   width: 30px;
   height: 30px;
@@ -597,13 +595,19 @@ h1 {
   box-sizing: border-box;
   border-radius: 50%;
   cursor: pointer;
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 .close-btn svg {
-  position: absolute;
-  margin-top: 36px;
-  margin-left: 20px;
-  margin-right: 40px;
-  left: 20px;
+}
+.close-btn:hover {
+  fill: var(--text-blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden {
   visibility: hidden;
@@ -798,3 +802,5 @@ input:checked {
 .chebox svg:checked {
   background: var(--text-blue);
 }
+
+/*  input: checked + svg;*/
