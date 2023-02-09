@@ -779,22 +779,24 @@ input:checked {
 .check {
   cursor: pointer;
   display: flex;
-  position: absolute;
-  height: 10;
-  width: 10;
   color: #2196f3;
   align-items: flex-start;
   font-size: 0.75rem;
   line-height: 1.0625rem;
-  opacity: 0;
 }
-.check {
+.check input {
   cursor: pointer;
   display: flex;
   position: absolute;
-  opacity: 0;
-  height: 0;
-  width: 0;
+  opacity: ;
+  height: 30;
+  width: 30;
+}
+
+.check::before {
+  box-sizing: border-box;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .check svg {
@@ -809,9 +811,10 @@ input:checked {
 }
 
 .check input:checked + svg {
-  background-image: url("../../goit-markup-hw-06/images/symbol-defs\(3\).svg");
+  background-image: url("../../goit-markup-hw-06/images/symbol-defs(3).svg#icon-Vector-4");
   background-repeat: no-repeat;
   background-size: 11px 11px;
   background-position: center;
   background-color: #2196f3;
+  fill: #eeeeee;
 }
