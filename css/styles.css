@@ -699,6 +699,7 @@ h1 {
   position: relative;
 }
 .from-input:focus,
+.from-input:focus ~ svg,
 .from-input-.kolum:focus ~ svg {
   outline: 1px solid #2196f3;
   fill: var(--text-blue);
@@ -779,14 +780,34 @@ h1 {
 }
 
 .checkbox {
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid var(--text-main-color);
+  width: 15px;
+  height: 15px;
+  background-color: var(--text-blue);
 }
-.check input::before {
+.terms-label {
+  position: relative;
+}
+.terms-label input::before {
+  box-sizing: border-box;
+  border: 1px solid var(--text-main-color);
+  border-radius: 4px;
+  width: 10px;
+  height: 10px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #212121;
+  position: absolute;
 }
 .from label .terms-label {
   cursor: pointer;
   display: flex;
   align-items: flex-start;
-  position: absolute;
+  position: relative;
   cursor: pointer;
 }
 .terms-label input {
