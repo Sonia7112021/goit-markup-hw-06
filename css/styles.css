@@ -683,8 +683,6 @@ h1 {
 .from label {
   box-sizing: border-box;
   border-radius: 4px;
-  display: flex;
-  flex-direction: column;
 }
 
 .from-input {
@@ -702,6 +700,11 @@ h1 {
 }
 .from-input:focus,
 .from-input:focus ~ svg {
+  outline: 1px solid #2196f3;
+  fill: var(--text-blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.from-kolum svg:focus {
   outline: 1px solid #2196f3;
   fill: var(--text-blue);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -763,6 +766,7 @@ h1 {
   margin-left: 20px;
   margin-right: 40px;
   left: 20px;
+  z-index: 100;
 }
 .reg:hover {
   color: var(--text-blue);
@@ -779,14 +783,22 @@ h1 {
 }
 .check input::before {
 }
-.terms-label {
+.from label .terms-label {
   cursor: pointer;
-  display: none;
+  display: flex;
   align-items: flex-start;
-  font-size: 0.75rem;
-  line-height: 1.0625rem;
+  position: absolute;
+  cursor: pointer;
 }
 .terms-label input {
   position: absolute;
   cursor: pointer;
+  align-items: space-between;
+  display: flex;
+}
+.kolum {
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
 }
