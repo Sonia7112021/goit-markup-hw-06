@@ -699,7 +699,7 @@ h1 {
   position: relative;
 }
 .from-input:focus,
-.from-input:focus ~ svg {
+.from-input-.kolum:focus ~ svg {
   outline: 1px solid #2196f3;
   fill: var(--text-blue);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
