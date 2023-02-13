@@ -790,7 +790,7 @@ h1 {
 .terms-label {
   position: relative;
 }
-.terms-label input::before {
+.checkbox::before {
   box-sizing: border-box;
   border: 1px solid var(--text-main-color);
   border-radius: 4px;
