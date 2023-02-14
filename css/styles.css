@@ -790,18 +790,21 @@ h1 {
 .terms-label {
   position: relative;
 }
-.checkbox::before {
-  box-sizing: border-box;
+.terms-label::before {
   border: 1px solid var(--text-main-color);
   border-radius: 4px;
-  width: 10px;
-  height: 10px;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  background: #212121;
+  width: 15px;
+  height: 15px;
+  background: black;
   position: absolute;
+  content: "";
+  top: 2px;
+
+  left: 15px;
+
+  background-image: url("../images/symbol-defs(3).svg#icon-Vector-4");
+  background-repeat: ;
+  background-size: 11px 11px;
 }
 .from label .terms-label {
   cursor: pointer;
