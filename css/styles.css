@@ -802,8 +802,8 @@ h1 {
 
   left: 15px;
 
-  background-image: url("../images/symbol-defs(3).svg#icon-Vector-4");
-  background-repeat: ;
+  background-image: url("../../images/vektor.svg");
+  background-repeat: no-repeat;
   background-size: 11px 11px;
 }
 .from label .terms-label {
